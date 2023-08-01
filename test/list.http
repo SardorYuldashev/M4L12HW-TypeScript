@@ -1,0 +1,28 @@
+POST http://localhost:3000/lists
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+Content-Type: application/json
+
+{
+  "name": "Ro'yxat 3"
+}
+
+###
+GET http://localhost:3000/lists
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+
+###
+GET http://localhost:3000/lists/64c954869e93f815cd5dacfb
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+
+###
+PATCH http://localhost:3000/lists/64c954869e93f815cd5dacfb
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+Content-Type: application/json
+
+{
+    "name": "LIST 1 (EDITED)"
+}
+
+###
+DELETE http://localhost:3000/lists/64c954869e93f815cd5dacfb
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY

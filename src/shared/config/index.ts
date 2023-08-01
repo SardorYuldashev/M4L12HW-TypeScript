@@ -6,6 +6,9 @@ interface Config {
     host: string;
     port: number;
     name: string;
+  },
+  jwt: {
+    secret: string
   }
 }
 
@@ -15,6 +18,9 @@ const config: Config = {
     host: process.env.DB_HOST!,
     port: +process.env.DB_PORT!,
     name: process.env.DB_NAME!,
+  },
+  jwt: {
+    secret: process.env.JWT_SECRET!
   },
 };
 

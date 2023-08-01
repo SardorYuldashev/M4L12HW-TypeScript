@@ -1,0 +1,29 @@
+POST http://localhost:3000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+Content-Type: application/json
+
+{
+    "text": "TODO 6",
+    "list": "64c954829e93f815cd5dacf9"
+}
+
+###
+GET http://localhost:3000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+
+###
+GET http://localhost:3000/todos/64c9552e9e93f815cd5dad20
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+
+###
+PATCH http://localhost:3000/todos/64c9552e9e93f815cd5dad20
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
+Content-Type: application/json
+
+{
+  "text": "Hammaga salom"
+}
+
+###
+DELETE http://localhost:3000/todos/64c9552e9e93f815cd5dad20
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTQ5MmI5ZmJhZjRmNmYwZGQ4YmY2In0sImlhdCI6MTY5MDkxMzA4OX0.v_7ztQRVoWlNVQzg64rxc5cd1BLv0qftWB5hkXDuMzY
